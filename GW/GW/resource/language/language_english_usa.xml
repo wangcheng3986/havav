@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LangDef langCode="0804" xsi:noNamespaceSchemaLocation="HMILinguist_Texts.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    //common
+    
+    <LangID ID="common.load.text" Text="请稍等"/>
+    <LangID ID="common.delete" Text="删除"/>
+    <LangID ID="common.SearchBar.placeholder" Text="兴趣点名称、地址、关键字"/>
+    <LangID ID="common.Refresh.lastUpdatedTime" Text="最后更新时间"/>
+    <LangID ID="common.Refresh.Release" Text="松开刷新"/>
+    <LangID ID="common.Refresh.ReleaseStatus" Text="释放刷新状态"/>
+    <LangID ID="common.Refresh.PullDown" Text="下拉刷新"/>
+    <LangID ID="common.Refresh.PullDownStatus" Text="下拉刷新状态"/>
+    <LangID ID="common.Refresh.Load" Text="正在加载..."/>
+    <LangID ID="common.Refresh.LoadStatus" Text="加载状态"/>
+    <LangID ID="common.noNetAlert.message" Text="网络不给力，请稍后再试"/>
+    <LangID ID="common.loseTokenID.message" Text="会话过期，请重新登录！"/>
+    <LangID ID="common.overlengthAlert.message" Text="超出长度限制不能输入"/>
+    <LangID ID="common.overlengthAlert.cancelButtonTitle" Text="确定"/>
+    <LangID ID="common.noTextAlert.message" Text="不能只输入空格"/>
+    <LangID ID="common.HomeButtonTitle" Text="主页"/>
+    <LangID ID="common.BackButtonTitle" Text="返回"/>
+    <LangID ID="common.AffirmBtnTitle" Text="确定"/>
+    <LangID ID="common.unopenedAlert" Text="亲，您的车不支持该服务"/>
+    <LangID ID="common.earlyEventTime.message" Text="提醒时间应晚于当前时间"/>
+    
+    //MainViewController
+    <LangID ID="Main.MainViewController.loveCarAlert" Text="亲，您的车不支持该服务"/>
+    <LangID ID="Main.MainViewController.loginButton.title" Text="登录"/>
+    <LangID ID="Main.MainViewController.logoutButton.title" Text="注销"/>
+    <LangID ID="Main.MainViewController.urlError.alertMessage" Text="亲，地址有误无法在地图上显示"/>
+    <LangID ID="Main.MainViewController.selectCarLoading" Text="正在选择车辆..."/>
+    <LangID ID="Main.MainViewController.selectCarSuccess" Text="选择车辆成功"/>
+    <LangID ID="Main.MainViewController.selectCarFail" Text="选择车辆失败"/>
+    
+    //login
+    
+    <LangID ID="Login.loading.text" Text="正在登录..."/>
+    <LangID ID="Main.MainViewController.loginSuccess.title" Text="登录成功"/>
+    <LangID ID="Main.MainViewController.loginFailure.message" Text="登录失败"/>
+    <LangID ID="Login.UserInputViewController.nameFailAlert.Title" Text="请输入11位有效的手机号"/>
+    <LangID ID="Login.UserInputViewController.passwordFailAlert.Title" Text="请输入6-20位半角字符（字母、数字、符号），区分大小写"/>
+    <LangID ID="Main.MainViewController.loginAccountNOExist.message" Text="账号或密码错误"/>
+    <LangID ID="Login.UserInputViewController.unenabelAlert.message" Text="亲，您还未登录"/>
+    <LangID ID="Login.UserInputViewController.demoAlert.message" Text="您现在使用体验账号登录，请登录正式账号"/>
+    
+    <LangID ID="Main.MainViewController.loginNOVehicles.message" Text="该账号未注册服务"/>
+    <LangID ID="Main.MainViewController.loginNoDredgeOrClose.message" Text="该账号未注册服务"/>
+    <LangID ID="Main.MainViewController.demoLoginSuccess.title" Text="已开启体验模式"/>
+    <LangID ID="Main.MainViewController.loginAlert.title" Text="账号或密码错误"/>
+    
+    
+    //loginview
+    
+    <LangID ID="Main.MainViewController.nameTextField.placeholder" Text="请输入11位有效的手机号"/>
+    <LangID ID="Main.MainViewController.nameLable.text" Text="账  号："/>
+    <LangID ID="Main.MainViewController.passwordLable.text" Text="密  码："/>
+    <LangID ID="Main.MainViewController.passwordTextField.placeholder" Text="请输入6-20位半角字符密码"/>
+    <LangID ID="Main.MainViewController.rememberPasswordLable.text" Text="记住密码"/>
+    <LangID ID="Main.MainViewController.annotationLable1.text" Text="登录账号为车主手机号，如果您尚未开通T服务，请"/>
+    <LangID ID="Main.MainViewController.annotationLable2.text" Text="先在手机端或服务网站注册开通服务。"/>
+    <LangID ID="Main.MainViewController.firstLoginButton.title" Text="注册"/>
+    <LangID ID="Main.MainViewController.forgetPwdButton.title" Text="忘记密码"/>
+    <LangID ID="Main.MainViewController.imitationLoginButton.title" Text="体验"/>
+    
+    //openTSevice
+    <LangID ID="OpenTSevice.navTitle" Text="注册"/>
+    <LangID ID="OpenTSevice.phoneLabel" Text="手  机  号："/>
+    <LangID ID="OpenTSevice.cdkeyLabel" Text="激  活  码："/>
+    <LangID ID="OpenTSevice.pwdLabel" Text="新  密  码："/>
+    <LangID ID="OpenTSevice.pwdAgainLabel" Text="确认密码："/>
+    <LangID ID="OpenTSevice.second" Text="秒"/>
+    <LangID ID="OpenTSevice.getCDKEYBtnTitle" Text="获取激活码"/>
+    <LangID ID="OpenTSevice.openTSeverBtnTitle" Text="提交"/>
+    <LangID ID="OpenTSevice.phoneTextFeildPlaceholder" Text="请输入购车时绑定的手机号"/>
+    <LangID ID="OpenTSevice.cdkeyTextFeildPlaceholder" Text="请输入激活码"/>
+    <LangID ID="OpenTSevice.pwdTextFeildPlaceholder" Text="请设置登录密码"/>
+    <LangID ID="OpenTSevice.pwdAgainTextFeildPlaceholder" Text="请确认登录密码"/>
+    
+    <LangID ID="OpenTSevice.GetCDK.LoadingTitle" Text="正在发送..."/>
+    <LangID ID="OpenTSevice.GetCDKSucces.AlertTitle" Text="发送成功"/>
+    <LangID ID="OpenTSevice.GetCDKFail.AlertTitle" Text="发送失败"/>
+    <LangID ID="OpenTSevice.GetCDKPhoneNumError.AlertTitle" Text="请输入11位有效的手机号"/>
+    <LangID ID="OpenTSevice.GetCDKAccountNOExit.AlertTitle" Text="该账号不存在"/>
+    <LangID ID="OpenTSevice.GetCDKAccountOpened.AlertTitle" Text="该账号已注册服务"/>
+    <LangID ID="OpenTSevice.GetCDKAccountUnopened.AlertTitle" Text="该账号未注册服务"/>
+    <LangID ID="OpenTSevice.GetCDKAccountNOCAR.AlertTitle" Text="该账号未绑定车辆"/>
+    
+    <LangID ID="OpenTSevice.Open.LoadingTitle" Text="正在注册服务..."/>
+    <LangID ID="OpenTSevice.OpenSucces.AlertTitle" Text="注册服务成功"/>
+    <LangID ID="OpenTSevice.OpenFail.AlertTitle" Text="注册服务失败"/>
+    <LangID ID="OpenTSevice.OpenPWDError.AlertTitle" Text="请输入6-20位半角字符（字母、数字、符号），区分大小写"/>
+    <LangID ID="OpenTSevice.cdkeyInputError.AlertTitle" Text="请输入6位有效的激活码"/>
+    <LangID ID="OpenTSevice.OpenPWDAgainError.AlertTitle" Text="两次输入密码不一致"/>
+    
+    <LangID ID="OpenTSevice.OpenAccountNOExit.AlertTitle" Text="该账号不存在"/>
+    <LangID ID="OpenTSevice.OpenSmsCodeError.AlertTitle" Text="亲，激活码无效"/>
+    <LangID ID="OpenTSevice.OpenAccountOpened.AlertTitle" Text="该账号已注册服务"/>
+    <LangID ID="OpenTSevice.OpenAccountNOCAR.AlertTitle" Text="该账号未绑定车辆"/>
+    <LangID ID="OpenTSevice.protocol.Title" Text="协议条款"/>
+    
+    
+    //resetPWD
+    <LangID ID="resetPWD.reset.LoadingTitle" Text="正在重置密码..."/>
+    <LangID ID="resetPWD.resetSucces.AlertTitle" Text="重置密码成功"/>
+    <LangID ID="resetPWD.resetFail.AlertTitle" Text="重置密码失败"/>
+    <LangID ID="ResetPwd.navTitle" Text="重置密码"/>
+    <LangID ID="ResetPwd.AccountUnopened.AlertTitle" Text="该账号未注册服务"/>
+    
+    //addFriend
+    
+    //friend
+    <LangID ID="friend.FriendListViewController.rightButtonEditTitle" Text="编辑"/>
+    <LangID ID="friend.FriendListViewController.rightButtonFinishTitle" Text="完成"/>
+    <LangID ID="friend.FriendTabBarViewController.friendListTabBarItemTitle" Text="车友列表"/>
+    <LangID ID="friend.FriendTabBarViewController.addFriendTabBarItemTitle" Text="添加车友"/>
+    <LangID ID="friend.FriendListViewController.syncContactsButtonTitle" Text="通讯录获取车友"/>
+    <LangID ID="friend.FriendListViewController.syncContactsButtonText" Text="从手机通讯录获取车友列表"/>
+    <LangID ID="friend.FriendTabBarViewController.addFriendTitle" Text="添加车友"/>
+    <LangID ID="friend.FriendTabBarViewController.friendFirstLoginTitle" Text="车友"/>
+    <LangID ID="friend.FriendTabBarViewController.allFriendListTitle" Text="车友"/>
+    <LangID ID="friend.FriendTabBarViewController.blacklistTitle" Text="黑名单"/>
+    <LangID ID="friend.FriendList.selfName" Text="自己"/>
+    
+    <LangID ID="friend.OnLoadingContactsList.Title" Text="正在加载车友..."/>
+    <LangID ID="friend.AddFriendViewController.updateContactsSuccess" Text="加载成功"/>
+    <LangID ID="friend.AddFriendViewController.updateContactsFailed" Text="加载失败"/>
+    <LangID ID="friend.DeleteContactsList.Title" Text="正在删除车友..."/>
+    <LangID ID="friend.DeleteBlackList.Title" Text="正在删除黑名单..."/>
+    <LangID ID="friend.AddFriendViewController.deleteContactsSuccess" Text="删除车友成功"/>
+    <LangID ID="friend.AddFriendViewController.deleteContactsFailed" Text="删除车友失败"/>
+    <LangID ID="friend.friendListViewController.delBlackSuccess" Text="删除黑名单成功"/>
+    <LangID ID="friend.friendListViewController.delBlackFailed" Text="删除黑名单失败"/>
+    <LangID ID="friend.friendListViewController.loadBlack" Text="正在加载黑名单..."/>
+    
+    <LangID ID="friend.AddFriendViewController.addContactsSuccess" Text="添加车友成功"/>
+    <LangID ID="friend.AddFriendViewController.addContactsFailed" Text="添加车友失败"/>
+    <LangID ID="friend.AddFriendViewController.addContactsIsExist" Text="亲，该车友已存在"/>
+    <LangID ID="friend.AddFriendViewController.addContactsNoTServer" Text="亲，该手机号不是会员，添加失败"/>
+    
+    //AddFriend
+    <LangID ID="friend.AddFriendViewController.addFriendButtonTitle" Text="输入车友账号"/>
+    <LangID ID="friend.AddFriendViewController.addFriendButtonText" Text="直接输入车友账号添加"/>
+    <LangID ID="friend.AddFriendViewController.syncContactsButtonTitle" Text="从通讯录添加"/>
+    <LangID ID="friend.AddFriendViewController.syncContactsButtonText" Text="从通讯录中同步拥有长城汽车服务的车友"/>
+    <LangID ID="friend.AddFriendViewController.nameLabelText" Text="备注名："/>
+    <LangID ID="friend.AddFriendViewController.phoneNumberLabelText" Text="手机号："/>
+    <LangID ID="friend.AddFriendViewController.cencelButtonTitle" Text="取消"/>
+    <LangID ID="friend.AddFriendViewController.confirmButtonTitle" Text="确定"/>
+    <LangID ID="friend.AddFriendViewController.nameTextField.placeholder" Text="请输入备注名"/>
+    <LangID ID="friend.AddFriendViewController.phoneNumberTextField.placeholder" Text="请输入手机号码"/>
+    <LangID ID="friend.AddFriendViewController.nameTextNeeded" Text="请输入备注名"/>
+    <LangID ID="friend.AddFriendViewController.phoneError" Text="请输入11位有效的手机号"/>
+    <LangID ID="friend.AddFriendViewController.addSelfAlert" Text="亲，不能将自己添加为车友"/>
+    <LangID ID="friend.AddFriendViewController.addFriendLoading" Text="正在添加车友..."/>
+    
+    <LangID ID="friend.OnSynchronazingContactsList.Title" Text="正在同步通讯录..."/>
+    <LangID ID="friend.AddFriendViewController.alertMessage1" Text="同步车友"/>
+    <LangID ID="friend.AddFriendViewController.alertMessage2" Text="位"/>
+    <LangID ID="friend.FriendListViewController.syncContactsFailAlert" Text="同步通讯录失败"/>
+    <LangID ID="friend.FriendListViewController.getLocalContactsFailAlert" Text="没有访问通讯录的权限"/>
+    <LangID ID="friend.FriendListViewController.LocalContactsIsNull" Text="亲，您没有可同步的通讯录"/>
+    
+    //friendDetail
+    <LangID ID="friend.FriendDetailViewController.sendingLocationRequest" Text="正在发送..."/>
+    <LangID ID="friend.FriendDetailViewController.requestLocationSended" Text="位置请求发送成功"/>
+    <LangID ID="friend.FriendDetailViewController.requestLocationSendFailed" Text="位置请求发送失败"/>
+    <LangID ID="friend.FriendDetailViewController.requestLocationDisable" Text="您发送的请求过于频繁，请稍候再试"/>
+    <LangID ID="friend.FriendDetailViewController.requestLocationFriendNoCar" Text="您所请求的车友没有车辆信息"/>
+    <LangID ID="friend.FriendTabBarViewController.remarkAlertTitle" Text="请修改备注名："/>
+    <LangID ID="friend.FriendTabBarViewController.remarkAlertCancel" Text="取消"/>
+    <LangID ID="friend.FriendTabBarViewController.remarkAlertAffirm" Text="确定"/>
+    <LangID ID="friend.FriendTabBarViewController.friendDetailTitle" Text="车友详情"/>
+    <LangID ID="friend.FriendDetailViewController.locationTitleLabelText" Text="最近一次位置"/>
+    <LangID ID="friend.FriendDetailViewController.phoneTitleLabelText" Text="手机:"/>、
+    <LangID ID="friend.FriendDetailViewController.synchroLabelText" Text="位置信息将同时发送到我的汽车"/>
+    <LangID ID="friend.FriendDetailViewController.siteRequestButtonTitle" Text="请求查看车辆位置"/>
+    <LangID ID="friend.FriendDetailViewController.remarkFriend" Text="正在修改备注名..."/>
+    <LangID ID="friend.FriendDetailViewController.lastLocationTitle" Text="最近一次位置"/>
+    <LangID ID="friend.FriendDetailViewController.remarkSuccess" Text="修改备注名成功"/>
+    <LangID ID="friend.FriendDetailViewController.remarkFailed" Text="修改备注名失败"/>
+    <LangID ID="friend.FriendTabBarViewController.remarkBtnTitle" Text="备注名"/>
+    <LangID ID="friend.FriendTabBarViewController.refresh" Text="刷新"/>
+    
+    <LangID ID="friend.FriendTabBarViewController.refreshing" Text="正在获取车辆位置..."/>
+    <LangID ID="friend.FriendTabBarViewController.refreshSuccessed" Text="获取成功"/>
+    <LangID ID="friend.FriendTabBarViewController.refreshFailed" Text="获取失败"/>
+    <LangID ID="friend.FriendDetailViewController.callToFriend" Text="呼叫"/>
+    <LangID ID="friend.FriendDetailViewController.selfLocationTitle" Text="车辆位置"/>
+    <LangID ID="friend.FriendDetailViewController.selfNoLocation" Text="无"/>
+    <LangID ID="friend.FriendDetailViewController.friendNoLocation" Text="无"/>
+    <LangID ID="friend.leaveMessage.Title" Text="留言"/>
+    <LangID ID="friend.leaveMessage.messageTitle" Text="请输入留言信息："/>
+    <LangID ID="friend.leaveMessage.informationTips" Text="温馨提示："/>
+    <LangID ID="friend.leaveMessage.information" Text="亲爱的用户，您也可以跳过留言直接发送哦~"/>
+    <LangID ID="friend.leaveMessage.sendMessageButton" Text="发送"/>
+    <LangID ID="friend.leaveMessage.placeHolder" Text="您想说点什么（40字以内）..."/>
+    
+    
+    //map
+    
+    <LangID ID="map.mapMainViewController.getCarLocLoading" Text="正在获取车辆位置..."/>
+    <LangID ID="map.mapMainViewController.getCarLocError" Text="获取失败"/>
+    <LangID ID="map.mapMainViewController.getCarLocSuccess" Text="获取成功"/>
+    <LangID ID="map.SearchResultViewController.loadTitle" Text="正在加载数据..."/>
+    <LangID ID="map.SearchResultViewController.loadSuccess" Text="加载数据成功"/>
+    <LangID ID="map.SearchResultViewController.loadFailAlert" Text="加载数据失败"/>
+    <LangID ID="map.SearchResultViewController.noResult" Text="未搜索到结果"/>
+    <LangID ID="map.SearchResultViewController.footerlabeltext" Text="未搜索到结果"/>
+    <LangID ID="map.SearchViewController.noKeyWord" Text="请输入搜索关键词"/>
+    <LangID ID="map.SearchViewController.Title" Text="搜索"/>
+    <LangID ID="map.SearchViewController.clearHistoryBtnTitle" Text="单击清除历史记录"/>
+    <LangID ID="map.SearchResultViewController.title" Text="搜索结果"/>
+    <LangID ID="map.SearchResultViewController.mapButton" Text="地图"/>
+    <LangID ID="map.SearchResultViewController.listButton" Text="列表"/>
+    <LangID ID="map.SearchResultViewController.loadUpButton" Text="上一页"/>
+    <LangID ID="map.SearchResultViewController.loadDownButton" Text="下一页"/>
+    <LangID ID="map.SearchResultViewController.cityAlertMessage" Text="切换到"/>
+    <LangID ID="map.mapTabBarViewController.mapTabBarItem" Text="地图"/>
+    <LangID ID="map.mapTabBarViewController.collectTabBarItem" Text="收藏"/>
+    <LangID ID="map.mapTabBarViewController.circumTabBarItem" Text="周边"/>
+    <LangID ID="map.mapTabBarViewController.accessAlertMessage" Text="亲，您还未登录"/>
+    <LangID ID="map.mapTabBarViewController.customLocationTitle" Text="自定义位置"/>
+    <LangID ID="map.mapTabBarViewController.GPSLocationTitle" Text="当前位置"/>
+    <LangID ID="map.mapTabBarViewController.carLocationTitle" Text="车辆位置"/>
+    
+    //collect
+    
+    <LangID ID="map.collectViewController.sycnTitle" Text="正在同步收藏夹..."/>
+    <LangID ID="map.collectViewController.syncYesAlert" Text="同步成功"/>
+    <LangID ID="map.collectViewController.syncNoAlert" Text="同步失败"/>
+    <LangID ID="map.collectViewController.title" Text="收藏"/>
+    <LangID ID="map.collectViewController.editButton" Text="编辑"/>
+    <LangID ID="map.collectViewController.finishButton" Text="完成"/>
+    <LangID ID="map.collectViewController.syncButton" Text="同步"/>
+    <LangID ID="map.collectViewController.footerlabeltext" Text="对不起，没有数据显示"/>
+    <LangID ID="map.collectViewController.deleteSuccess" Text="删除成功"/>
+    
+    //poi
+    <LangID ID="map.POIDetailViewController.addSuccessAlert" Text="添加收藏成功"/>
+    <LangID ID="map.POIDetailViewController.delSuccessAlert" Text="取消收藏成功"/>
+    <LangID ID="map.POIDetailViewController.addAlert" Text="添加收藏失败"/>
+    <LangID ID="map.POIDetailViewController.delAlert" Text="取消收藏失败"/>
+    <LangID ID="map.POIDetailViewController.POItitle" Text="兴趣点详情"/>
+    <LangID ID="map.POIDetailViewController.customtitle" Text="位置详情"/>
+    <LangID ID="map.POIDetailViewController.phoneTitle" Text="当前位置详情"/>
+    <LangID ID="map.POIDetailViewController.carTitle" Text="车辆位置详情"/>
+    <LangID ID="map.POIDetailViewController.uncollectButton" Text="取消收藏"/>
+    <LangID ID="map.POIDetailViewController.collectButton" Text="添加收藏"/>
+    <LangID ID="map.POIDetailViewController.callButton" Text="呼叫"/>
+    <LangID ID="map.POIDetailViewController.smsButton" Text="短信分享"/>
+    <LangID ID="map.POIDetailViewController.sendButton" Text="发送到车"/>
+    <LangID ID="map.POIDetailViewController.showMapButton" Text="地图显示"/>
+    <LangID ID="map.POIDetailViewController.searchAroundButton" Text="周边搜索"/>
+    <LangID ID="map.POIMapViewController.title" Text="地图"/>
+    <LangID ID="map.POIDetailViewController.callAlert" Text="电话号码无效"/>
+    <LangID ID="map.POIDetailViewController.address" Text="地址:"/>
+    <LangID ID="map.POIDetailViewController.noLoginAlert" Text="亲，您还未登录"/>
+    <LangID ID="map.POIDetailViewController.editButton" Text="编辑"/>
+    <LangID ID="map.POIDetailViewController.remarkViewTitle" Text="请输入位置名称"/>
+    
+    //circum
+    <LangID ID="map.CircumViewController.title" Text="周边搜索"/>
+    <LangID ID="map.CircumViewController.repast" Text="餐饮"/>
+    <LangID ID="map.CircumViewController.lodging" Text="酒店"/>
+    <LangID ID="map.CircumViewController.bank" Text="银行"/>
+    <LangID ID="map.CircumViewController.relaxation" Text="休闲"/>
+    <LangID ID="map.CircumViewController.shopping" Text="购物"/>
+    <LangID ID="map.CircumViewController.gasStation" Text="加油站"/>
+    <LangID ID="map.CircumViewController.4sStores" Text="长城4S店"/>
+    <LangID ID="map.CircumViewController.traffic" Text="停车场"/>
+    // sms
+    <LangID ID="tinyUrlCreate.title" Text="正在处理中..."/>
+    <LangID ID="tinyUrlCreate.failure" Text="处理失败"/>
+    <LangID ID="sms.customPOIName" Text="位置点"/>
+    //sendtocar
+    
+    <LangID ID="sendToCarViewController.sendTitle" Text="正在发送..."/>
+    <LangID ID="map.sendToCarViewController.sendYesAlert" Text="发送成功"/>
+    <LangID ID="map.sendToCarViewController.sendNoAlert" Text="发送失败"/>
+    <LangID ID="map.sendToCarViewController.sendAlertCentent1" Text="亲，您成功发送"/>
+    <LangID ID="map.sendToCarViewController.sendAlertCentent2" Text="位车友，有"/>
+    <LangID ID="map.sendToCarViewController.sendAlertCentent3" Text="发送失败"/>
+    <LangID ID="sendToCarViewController.numberNillAlert" Text="请选择车友"/>
+    <LangID ID="selectFriendViewController.alertCentent" Text="亲，每次发送不得超过10位车友"/>
+    <LangID ID="map.sendToCarViewController.eventTitle" Text="发送到车"/>
+    <LangID ID="map.sendToCarViewController.eventNotes" Text="亲，此提醒来源于长城汽车手机应用软件"/>
+    <LangID ID="map.sendToCarViewController.eventCentent" Text="亲，位置名称："/>
+    <LangID ID="map.sendToCarViewController.eventCentent2" Text="，位置地址："/>
+    <LangID ID="map.sendToCarViewController.eventCentent3" Text="提醒内容："/>
+    <LangID ID="map.sendToCarViewController.sendfailAlert" Text="发送失败"/>
+    <LangID ID="sendToCarViewController.title" Text="发送到车"/>
+    <LangID ID="sendToCarViewController.receiverLabel" Text="接收方"/>
+    <LangID ID="sendToCarViewController.eventlabel" Text="添加事件提醒"/>
+    <LangID ID="selectFriendViewController.rightButton" Text="完成"/>
+    <LangID ID="selectFriendViewController.title" Text="车友列表"/>
+    <LangID ID="selectFriendViewController.recipientTextPlaceholder" Text="请选择车友"/>
+    <LangID ID="selectFriendViewController.remindTextPlaceholder" Text="请输入提醒内容......"/>
+    <LangID ID="sendToCarViewController.sendBtnTitle" Text="发送"/>
+    
+    
+    
+    //rescue
+    <LangID ID="Main.MainViewController.rescueFailAlert.message" Text="获取救援电话失败"/>
+    <LangID ID="Main.MainViewController.rescueLoading.title" Text="正在获取救援电话..."/>
+    
+    
+    //message
+    
+    
+    <LangID ID="message.remarkAlertTitle" Text="请输入备注名："/>
+    <LangID ID="message.MessageViewController.title" Text="消息提醒"/>
+    
+    <LangID ID="message.MessageViewController.elecronicFenceButton" Text="电子围栏报警"/>
+    <LangID ID="message.MessageViewController.locationRequestButton" Text="位置请求通知"/>
+    <LangID ID="message.MessageViewController.friendLocationButton" Text="车友位置信息"/>
+    <LangID ID="message.MessageViewController.sendToCarButton" Text="发送到车通知"/>
+    <LangID ID="message.MessageViewController.controlResultButton" Text="控制结果通知"/>
+    <LangID ID="message.MessageViewController.diagnosisResultButton" Text="诊断结果通知"/>
+    <LangID ID="message.MessageViewController.abnormalAlarmButton" Text="车辆异常报警"/>
+    <LangID ID="message.MessageViewController.maintenanceAlarmButton" Text="保养提醒通知"/>
+    
+    <LangID ID="message.MessageViewController.editButton" Text="编辑"/>
+    <LangID ID="message.MessageViewController.finishButton" Text="完成"/>
+    <LangID ID="message.DetailViewController.leftButton" Text="返回"/>
+    <LangID ID="message.MessageViewController.loadButton" Text="单击加载更多信息"/>
+    <LangID ID="message.MessageViewController.selfLocationTitle" Text="车辆位置"/>
+    <LangID ID="message.MessageViewController.send2carLocationTitle" Text="位置"/>
+    <LangID ID="message.MessageViewController.send2carLocationNOTitle" Text="未知"/>
+    
+    <LangID ID="message.common.deleteFail" Text="删除失败"/>
+    <LangID ID="message.common.deleteSuccess" Text="删除成功"/>
+    <LangID ID="message.common.addFriendLoading" Text="正在加入车友..."/>
+    <LangID ID="message.common.addContactsSuccess" Text="加入车友成功"/>
+    <LangID ID="message.common.addContactsFailed" Text="加入车友失败"/>
+    <LangID ID="message.common.addSelfFriendAlert" Text="亲，不能将自己添加为车友"/>
+    <LangID ID="message.common.nameTextNeeded" Text="请输入备注名"/>
+    <LangID ID="message.common.addContactsNoTServer" Text="该发送者不是会员，加入失败"/>
+    <LangID ID="message.common.addContactsIsExist" Text="亲，该车友已存在"/>
+    
+    <LangID ID="message.common.addFriend.phoneError" Text="该发送者不是会员，加入失败"/>
+    <LangID ID="message.common.addBlackLoading" Text="正在加入黑名单..."/>
+    <LangID ID="message.common.addBlacklistSucess" Text="加入黑名单成功"/>
+    <LangID ID="message.common.addBlackFailed" Text="加入黑名单失败"/>
+    <LangID ID="message.common.addBlackIsExist" Text="亲，发送者已在黑名单中"/>
+    <LangID ID="message.common.addSelfAlert" Text="亲，不能将自己加入黑名单"/>
+    <LangID ID="message.common.addBlack.phoneError" Text="该发送者不是会员，加入失败"/>
+    <LangID ID="message.common.noShare" Text="无效位置，无法分享"/>
+    <LangID ID="message.common.alarmPOITitle" Text="报警位置"/>
+    //system
+    
+    <LangID ID="message.systemMessageViewController.title" Text="系统消息"/>
+    
+    //locationRequest
+    <LangID ID="message.locationRequestViewController.title" Text="位置请求通知"/>
+    <LangID ID="message.locationRequestViewController.agreeButtonTitle" Text="同意查看"/>
+    <LangID ID="message.locationRequestViewController.addFriendButtonTitle" Text="加入车友"/>
+    <LangID ID="message.locationRequestViewController.addBlacklistButtonTitle" Text="加入黑名单"/>
+    <LangID ID="message.locationRequestViewController.responseSuccess" Text="处理成功"/>
+    <LangID ID="message.locationRequestViewController.operationFailure" Text="处理失败"/>
+    <LangID ID="message.locationRequestViewController.AgreeLoading" Text="正在处理..."/>
+    <LangID ID="message.locationRequestViewController.disposeResultAgree" Text="已同意"/>
+    <LangID ID="message.locationRequestViewController.message1" Text="于"/>
+    <LangID ID="message.locationRequestViewController.message2" Text="向您发送位置查看的请求，请处理。"/>
+    <LangID ID="message.locationRequestViewController.desc" Text="留言："/>
+    //Friendlocation
+    <LangID ID="message.friendLocationViewController.title" Text="车友位置信息"/>
+    <LangID ID="message.friendLocationViewController.uploadTimeLabel" Text="位置上传时间："/>
+    <LangID ID="message.friendLocationViewController.carNameLabel" Text="车辆名称："/>
+    <LangID ID="message.friendLocationViewController.uploadAddressLabel" Text="车辆位置："/>
+    <LangID ID="message.friendLocationViewController.shareButtonTitle" Text="分享位置"/>
+    <LangID ID="message.friendLocationViewController.addBlacklistButtonTitle" Text="加入黑名单"/>
+    <LangID ID="message.friendLocationViewController.addFriendlistButtonTitle" Text="加入车友"/>
+    <LangID ID="message.friendLocationViewController.sheetcencelButtonTitle" Text="取消"/>
+    <LangID ID="message.friendLocationViewController.smsButtonTitle" Text="短信分享"/>
+    <LangID ID="message.friendLocationViewController.sendtocarButtonTitle" Text="发送到车"/>
+    <LangID ID="message.friendLocationDetailViewController.message1" Text="于"/>
+    <LangID ID="message.friendLocationDetailViewController.message2" Text="已经同意您发起的位置请求，请查看。"/>
+    <LangID ID="message.friendLocationDetailViewController.noAddress" Text="无效位置"/>
+    //message.sendtocar
+    <LangID ID="message.sendToCarViewController.title" Text="发送到车通知"/>
+    <LangID ID="message.SendToCarViewController.phoneTitle" Text="电话"/>
+    <LangID ID="message.SendToCarViewController.poiURLmessage" Text="查看地图点击："/>
+    <LangID ID="message.SendToCarViewController.poiURLmessage2" Text=" 连接-[长城手机端]"/>
+    <LangID ID="message.SendToCarViewController.message1" Text="于"/>
+    <LangID ID="message.SendToCarViewController.message2" Text="给您发送位置（"/>
+    <LangID ID="message.SendToCarViewController.message3" Text="）。"/>
+    //ElecFence
+    <LangID ID="message.ElecFenceViewController.Title" Text="电子围栏报警"/>
+    <LangID ID="message.ElecFenceViewController.typeWithInto" Text="入栏报警"/>
+    <LangID ID="message.ElecFenceViewController.typeWithOut" Text="出栏报警"/>
+    <LangID ID="message.ElecFenceViewController.message1" Text="于"/>
+    <LangID ID="message.ElecFenceViewController.message2" Text="发生"/>
+    <LangID ID="message.ElecFenceViewController.message3" Text="，请查看。"/>
+    //ElecFenceDetail
+    <LangID ID="message.ElecFenceDetailViewController.intoTitle" Text="入栏报警"/>
+    <LangID ID="message.ElecFenceDetailViewController.outTitle" Text="出栏报警"/>
+    <LangID ID="message.ElecFenceDetailViewController.timeTitle" Text="报警时间："/>
+    <LangID ID="message.ElecFenceDetailViewController.carNumTitle" Text="报警车辆："/>
+    <LangID ID="message.ElecFenceDetailViewController.addressTitle" Text="报警位置："/>
+    <LangID ID="message.ElecFenceDetailViewController.explainTitle" Text="说明："/>
+    //VehicleControlInform
+    <LangID ID="message.VehicleControlInformViewController.Title" Text="车辆控制结果通知"/>
+    <LangID ID="message.VehicleControlInformViewController.openDoor" Text="开车门锁"/>
+    <LangID ID="message.VehicleControlInformViewController.closeDoor" Text="关车门锁"/>
+    <LangID ID="message.VehicleControlInformViewController.blow" Text="鸣笛闪灯"/>
+    <LangID ID="message.VehicleControlInformViewController.bootupEngine" Text="启动引擎"/>
+    <LangID ID="message.VehicleControlInformViewController.turnOffEngine" Text="关闭引擎"/>
+    <LangID ID="message.VehicleControlInformViewController.openAirConditioner" Text="开启空调"/>
+    <LangID ID="message.VehicleControlInformViewController.turnOffAirConditioner" Text="关闭空调"/>
+    <LangID ID="message.VehicleControlInformViewController.message1" Text="于"/>
+    <LangID ID="message.VehicleControlInformViewController.message2" Text="执行"/>
+    <LangID ID="message.VehicleControlInformViewController.messageSuccess" Text="的操作成功。"/>
+    <LangID ID="message.VehicleControlInformViewController.messageFailure" Text="的操作失败。"/>
+    //VehicleDiagnosisInform
+    <LangID ID="message.VehicleDiagnosisInformViewController.Title" Text="诊断结果通知"/>
+    <LangID ID="message.VehicleDiagnosisInformViewController.online" Text="在线故障诊断"/>
+    <LangID ID="message.VehicleDiagnosisInformViewController.periodic" Text="定期情况报告"/>
+    <LangID ID="message.VehicleDiagnosisInformViewController.auto" Text="自动诊断结果"/>
+    <LangID ID="message.VehicleDiagnosisInformViewController.success" Text="生成的诊断报告结果为正常，请查看。"/>
+    <LangID ID="message.VehicleDiagnosisInformViewController.successFault" Text="生成的诊断报告结果有故障，请查看。"/>
+    <LangID ID="message.VehicleDiagnosisInformViewController.successFailure" Text="生成的诊断报告失败，请查看。"/>
+    <LangID ID="message.VehicleDiagnosisInformViewController.message1" Text="于"/>
+    //VehicleDiagnosisDetailInform
+    <LangID ID="message.VehicleDiagnosisDetailInformViewController.Title" Text="诊断报告"/>
+    //VehiclesAbnormalAlarm
+    <LangID ID="message.VehiclesAbnormalAlarmViewController.Title" Text="车辆异常报警"/>
+    <LangID ID="message.VehiclesAbnormalAlarmViewController.doorAbnormal" Text="车门异常打开报警"/>
+    <LangID ID="message.VehiclesAbnormalAlarmViewController.TboxAbnormal" Text="Tbox异常报警"/>
+    <LangID ID="message.VehiclesAbnormalAlarmViewController.message1" Text="于"/>
+    <LangID ID="message.VehiclesAbnormalAlarmViewController.message2" Text="发生"/>
+    <LangID ID="message.VehiclesAbnormalAlarmViewController.message3" Text="，请查看。"/>
+    //VehiclesAbnormalAlarmDetail
+    <LangID ID="message.VehiclesAbnormalAlarmDetailViewController.Title" Text="车辆异常打开/Tbox异常"/>
+    //MaintenanceAlertInform
+    <LangID ID="message.MaintenanceAlertInformViewController.Title" Text="保养提醒通知"/>
+    <LangID ID="message.MaintenanceAlertInformViewController.message" Text="您的爱车需要保养了，本次保养公里为"/>
+    <LangID ID="message.MaintenanceAlertInformViewController.message2" Text="。"/>
+    <LangID ID="message.MaintenanceAlertInformViewController.mileage" Text="Km"/>
+    //MaintenanceAlertInformDetail
+    <LangID ID="message.MaintenanceAlertInformDetailViewController.Title" Text="保养提醒通知"/>
+    <LangID ID="message.MaintenanceAlertInformDetailViewController.timeTitle" Text="保养时间："/>
+    <LangID ID="message.MaintenanceAlertInformDetailViewController.carNumTitle" Text="保养车辆："/>
+    <LangID ID="message.MaintenanceAlertInformDetailViewController.mileageTitle" Text="保养公里："/>
+    <LangID ID="message.MaintenanceAlertInformDetailViewController.explainTitle" Text="说明："/>
+    <LangID ID="message.MaintenanceAlertInformDetailViewController.itemsTitle" Text="保养项目："/>
+    //set
+    <LangID ID="set.setViewController.title" Text="设置"/>
+    <LangID ID="set.setViewController.clearButton" Text="清除历史记录"/>
+    <LangID ID="set.setViewController.detectionButton" Text="新版本检测"/>
+    <LangID ID="set.setViewController.opinionButton" Text="意见反馈"/>
+    <LangID ID="set.setViewController.aboutButton" Text="关于"/>
+    <LangID ID="set.setViewController.clearCencelButton" Text="取消"/>
+    <LangID ID="set.setViewController.clearConfirmButton" Text="确定"/>
+    <LangID ID="set.setViewController.versionButton" Text="确定"/>
+    <LangID ID="set.setViewController.versionCancelButton" Text="取消"/>
+    <LangID ID="set.setViewController.versionUpdate" Text="检测到新版本，是否进行更新！"/>
+    <LangID ID="set.setViewController.versionNoUpdate" Text="已经是最新版本，无需更新！"/>
+    //clear
+    <LangID ID="set.clearAlert.message" Text="您的操作将清除所选历史记录，确定清除?"/>
+    <LangID ID="set.clearAlert.selectClearType" Text="请选择要清除的历史记录"/>
+    <LangID ID="set.clearAlert.clearSuccess" Text="清除成功"/>
+    <LangID ID="set.clearAlert.clearfail" Text="清除失败"/>
+    <LangID ID="set.clearAlert.noCherry" Text="亲，您的车不支持该服务"/>
+    //清除历史记录
+    <LangID ID="set.clearViewController.title" Text="清除历史记录"/>
+    <LangID ID="set.clearViewController.searchHistoryTitle" Text="搜索历史记录"/>
+    <LangID ID="set.clearViewController.locRequestHistoryTitle" Text="位置请求通知"/>
+    <LangID ID="set.clearViewController.friendLoacHistoryTitle" Text="车友位置信息"/>
+    <LangID ID="set.clearViewController.send2CarHistoryTitle" Text="发送到车通知"/>
+    <LangID ID="set.clearViewController.elecFenceHistoryTitle" Text="电子围栏报警"/>
+    <LangID ID="set.clearViewController.vehicleControlHistoryTitle" Text="车辆控制结果通知"/>
+    <LangID ID="set.clearViewController.vehicleDiagnosisHistoryTitle" Text="车辆故障诊断结果"/>
+    <LangID ID="set.clearViewController.vehicleAbnormalHistoryTitle" Text="车辆异常报警"/>
+    <LangID ID="set.clearViewController.maintenanceHistoryTitle" Text="车辆保养提醒"/>
+    
+    <LangID ID="set.clearViewController.searchHistoryMessage" Text="位置搜索或周边搜索过的关键字"/>
+    <LangID ID="set.clearViewController.locRequestHistoryMessage" Text="接收到车友发来的位置请求通知"/>
+    <LangID ID="set.clearViewController.friendLoacHistoryMessage" Text="接收到车友的车辆位置信息"/>
+    <LangID ID="set.clearViewController.send2CarHistoryMessage" Text="接收到车友发送来的位置信息"/>
+    <LangID ID="set.clearViewController.elecFenceHistoryMessage" Text="接收到车辆在设定范围内出现的越界情况"/>
+    <LangID ID="set.clearViewController.vehicleControlHistoryMessage" Text="接收到车辆控制返回的结果"/>
+    <LangID ID="set.clearViewController.vehicleDiagnosisHistoryMessage" Text="接收到车辆故障诊断的结果"/>
+    <LangID ID="set.clearViewController.vehicleAbnormalHistoryMessage" Text="接收到车辆上报的异常情况"/>
+    <LangID ID="set.clearViewController.maintenanceHistoryMessage" Text="接收到保养提醒的通知"/>
+    
+    <LangID ID="set.clearViewController.clearBtnTitle" Text="清除"/>
+    //version
+    <LangID ID="set.version.searchTitle" Text="正在检测版本..."/>
+    <LangID ID="set.version.upsateFail" Text="新版本检测失败"/>
+    //opinion
+    <LangID ID="set.opinion.title" Text="意见标题"/>
+    <LangID ID="set.opinion.content" Text="意见内容"/>
+    <LangID ID="set.opinion.cencel" Text="取消"/>
+    <LangID ID="set.opinion.failAlert" Text="提交失败"/>
+    <LangID ID="set.opinion.submitYesAlert" Text="谢谢您提出的宝贵意见"/>
+    <LangID ID="set.opinion.submit" Text="提交"/>
+    <LangID ID="set.opinion.titlePlaceholder" Text="请输入文字......"/>
+    <LangID ID="set.opinion.contentPlaceholder" Text="请输入文字......"/>
+    <LangID ID="set.opinion.alertTitleNill" Text="请输入意见标题"/>
+    <LangID ID="set.opinion.alertContentNill" Text="请输入意见内容"/>
+    <LangID ID="set.opinion.loading" Text="正在提交..."/>
+    //about
+    <LangID ID="set.about.versionsTitleLabel" Text="软件版本号："/>
+    <LangID ID="set.about.phoneTitleLabel" Text="客服联系电话："/>
+    <LangID ID="set.about.phoneTextLabel" Text="4006666677"/>
+    <LangID ID="set.about.ownerTitleLabel" Text="版权所有："/>
+    <LangID ID="set.about.ownerTextLabel" Text="长城汽车股份有限公司"/>
+    <LangID ID="set.about.ownerURLTextLabel" Text="http://www.gwm.com.cn"/>
+    <LangID ID="set.about.supportTitleLabel" Text="技术支持："/>
+    <LangID ID="set.about.supportTextLabel" Text="北京四维图新科技股份有限公司"/>
+    <LangID ID="set.about.supportURLTextLabel" Text="http://www.navinfo.com"/>
+    <LangID ID="set.about.describeTitleLabel" Text="相关描述："/>
+    <LangID ID="set.about.describeTextLabel" Text="xxxxxxxxxx"/>
+    
+    
+    //car
+    <LangID ID="car.carTabBarViewController.vehicleControlTabBarItem" Text="车辆控制"/>
+    <LangID ID="car.carTabBarViewController.vehicleStatusTabBarItem" Text="车辆监控"/>
+    <LangID ID="car.carTabBarViewController.ElecFenceTabBarItem" Text="电子围栏"/>
+    <LangID ID="car.carTabBarViewController.vehicleDiagnosisTabBarItem" Text="故障诊断"/>
+    
+    <LangID ID="Car.VehicleControlViewController.placeHolder" Text="请输入6位密码"/>
+    <LangID ID="Car.VehicleControlViewController.textNum" Text="请输入6位密码"/>
+    <LangID ID="Car.VehicleControlViewController.success" Text="发送成功"/>
+    <LangID ID="Car.VehicleControlViewController.failure" Text="发送失败"/>
+    <LangID ID="Car.VehicleControlViewController.error" Text="安防密码错误"/>
+    <LangID ID="Car.VehicleControlViewController.executing" Text="有指令正在执行中，请稍后再试"/>
+    
+    <LangID ID="Car.VehicleControlViewController.openEngineSuccess" Text="发送成功"/>
+    <LangID ID="Car.VehicleControlViewController.openEngineFailure" Text="发送失败"/>
+    <LangID ID="Car.VehicleControlViewController.turnOffEngineSuccess" Text="发送成功"/>
+    <LangID ID="Car.VehicleControlViewController.turnOffEngineFailure" Text="发送失败"/>
+    
+    <LangID ID="Car.VehicleControlViewController.openCoolAirSuccess" Text="发送成功"/>
+    <LangID ID="Car.VehicleControlViewController.openCoolAirFailure" Text="发送失败"/>
+    <LangID ID="Car.VehicleControlViewController.turnOffCoolAirSuccess" Text="发送成功"/>
+    <LangID ID="Car.VehicleControlViewController.turnOffCoolAirFailure" Text="发送失败"/>
+    
+    <LangID ID="Car.VehicleControlViewController.openDoorLockSuccess" Text="发送成功"/>
+    <LangID ID="Car.VehicleControlViewController.openDoorLockFailure" Text="发送失败"/>
+    <LangID ID="Car.VehicleControlViewController.turnOffDoorLockSuccess" Text="发送成功"/>
+    <LangID ID="Car.VehicleControlViewController.turnOffDoorLockFailure" Text="发送失败"/>
+    
+    <LangID ID="Car.VehicleControlViewController.whistleAndFlashingLightSuccess" Text="发送成功"/>
+    <LangID ID="Car.VehicleControlViewController.whistleAndFlashingLightFailure" Text="发送失败"/>
+    
+    <LangID ID="Car.setParameterViewController.setParaButton" Text="设置"/>
+    <LangID ID="Car.setParameterViewController.setParaTitle" Text="设置控制参数"/>
+    <LangID ID="Car.setParameterViewController.setParaTitle1" Text="请设置开启引擎的运行时间"/>
+    <LangID ID="Car.setParameterViewController.setParaTitle2" Text="请设置开启空调的运行时间和温度"/>
+    <LangID ID="Car.setParameterViewController.setParaTitle3" Text="空调运行时间"/>
+    <LangID ID="Car.setParameterViewController.setParaTitle4" Text="空调温度"/>
+    
+    <LangID ID="Car.vehicleStatusViewController.refreshButton" Text="刷新"/>
+    <LangID ID="Car.vehicleStatusViewController.left" Text="左胎"/>
+    <LangID ID="Car.vehicleStatusViewController.right" Text="右胎"/>
+    <LangID ID="Car.vehicleStatusViewController.temperatureUnit" Text="度"/>
+    <LangID ID="Car.vehicleStatusViewController.mileageUnit" Text="Km"/>
+    <LangID ID="Car.vehicleStatusViewController.oilWearUnit" Text="L/Km"/>
+    <LangID ID="Car.vehicleStatusViewController.oilMassUnit" Text="L"/>
+    <LangID ID="Car.vehicleStatusViewController.moment" Text="刚刚"/>
+    <LangID ID="Car.vehicleStatusViewController.minute" Text="分钟之前"/>
+    <LangID ID="Car.vehicleStatusViewController.hour" Text="小时之前"/>
+    <LangID ID="Car.vehicleStatusViewController.day" Text="天之前"/>
+    <LangID ID="Car.vehicleStatusViewController.error" Text="---"/>
+    <LangID ID="Car.vehicleStatusViewController.errorNum" Text="--"/>
+    <LangID ID="Car.vehicleStatusViewController.executing" Text="亲，有指令正在执行，请稍后再试"/>
+    
+    <LangID ID="Car.ElecFenceViewController.editButton" Text="编辑"/>
+    
+    <LangID ID="Car.vehicleDiagnosisViewController.refreshButton" Text="诊断"/>
+    <LangID ID="Car.vehicleDiagnosisViewController.DiagnosisTimeTitle" Text="诊断时间："/>
+    <LangID ID="Car.vehicleDiagnosisViewController.DiagnosisNumber" Text="诊断结果："/>
+    <LangID ID="Car.vehicleDiagnosisViewController.success" Text="发送成功"/>
+    <LangID ID="Car.vehicleDiagnosisViewController.failure" Text="发送失败"/>
+    <LangID ID="car.common.saveButton" Text="保存"/>
+    <LangID ID="car.ElecFenceViewController.rightButtonFinishButton" Text="完成"/>
+    <LangID ID="Car.ElecFenceDetailViewController.title" Text="设置电子围栏"/>
+    <LangID ID="Car.setParameterViewController.engineTitle" Text="请设置开启引擎的运行时间"/>
+    <LangID ID="Car.setParameterViewController.CoolAirTitle" Text="请设置开启空调的运行时间和温度"/>
+    <LangID ID="Car.setParameterViewController.CoolAirTime" Text="空调运行时间"/>
+    <LangID ID="Car.setParameterViewController.CoolAirTemperature" Text="空调温度"/>
+    <LangID ID="Car.ElecFenceDetailViewController.MonitorRadius" Text="监控半径："/>
+    <LangID ID="Car.ElecFenceDetailViewController.effectTitle" Text="是否生效："/>
+    <LangID ID="Car.ElecFenceDetailViewController.address" Text="监控中心点："/>
+    <LangID ID="Car.ElecFenceDetailViewController.detailTitle" Text="说明：在地图上长按可以设置围栏中心点"/>
+    <LangID ID="Car.ElecFenceDetailViewController.setTitle" Text="请在地图上长按选点"/>
+    <LangID ID="Car.ElecFenceDetailViewController.newElecFailure" Text="亲，只能建3个电子围栏"/>
+    <LangID ID="Car.ElecFenceDetailViewController.numberError" Text="请输入1-500km"/>
+    <LangID ID="Car.vehicleStatusViewController.refreshTimeTitle" Text="距刷新时间："/>
+    <LangID ID="Car.vehicleStatusViewController.temperatureInCar" Text="车内温度："/>
+    <LangID ID="Car.vehicleStatusViewController.mileage" Text="总行驶里程："/>
+    <LangID ID="Car.vehicleStatusViewController.oilWear" Text="百公里油耗："/>
+    <LangID ID="Car.vehicleStatusViewController.oilMass" Text="剩余油量值："/>
+    <LangID ID="Car.vehicleStatusViewController.success" Text="发送成功"/>
+    <LangID ID="Car.vehicleStatusViewController.noLogin" Text="亲，你还未登陆"/>
+    <LangID ID="Car.vehicleStatusViewController.failure" Text="发送失败"/>
+    <LangID ID="Car.ElecFenceViewController.nameTitle" Text="电子围栏名称"/>
+    <LangID ID="Car.ElecFenceViewController.center" Text="监控中心点："/>
+    <LangID ID="Car.ElecFenceViewController.radius" Text="半径："/>
+    <LangID ID="Car.ElecFenceViewController.detail" Text="电子围栏说明："/>
+    <LangID ID="Car.ElecFenceViewController.placeHolder" Text="请在地图上长按选点"/>
+    <LangID ID="Car.ElecFenceViewController.radiusPlaceHolder" Text="1-500"/>
+    <LangID ID="Car.ElecFenceViewController.radiusUnit" Text="Km"/>
+    <LangID ID="Car.ElecFenceViewController.elecStateText" Text="状态："/>
+    <LangID ID="Car.ElecFenceViewController.elecStateValid" Text="已生效"/>
+    <LangID ID="Car.ElecFenceViewController.elecStateInvalid" Text="未生效"/>
+    <LangID ID="Car.ElecFenceViewController.newElec" Text="新建电子围栏"/>
+    <LangID ID="Car.ElecFenceViewController.addressInfo" Text="正在获取地址信息..."/>
+    <LangID ID="Car.ElecFence.alert.num" Text="此车辆已经存在3个电子围栏"/>
+    <LangID ID="Car.ElecFence.alert.selectFailure" Text="获取电子围栏列表失败"/>
+    <LangID ID="Car.ElecFence.alert.selectSuccess" Text="加载成功"/>
+    <LangID ID="Car.ElecFence.alert.deleteFailure" Text="删除失败"/>
+    <LangID ID="Car.ElecFence.alert.deleteSuccess" Text="删除成功"/>
+    <LangID ID="Car.ElecFence.alert.modifyFailure" Text="保存失败"/>
+    <LangID ID="Car.ElecFence.alert.modifySuccess" Text="保存成功"/>
+    <LangID ID="Car.ElecFence.alert.addFailure" Text="保存失败"/>
+    <LangID ID="Car.ElecFence.alert.addSuccess" Text="保存成功"/>
+    <LangID ID="Car.loading.text" Text="请求中..."/>
+    <LangID ID="Car.loading.detailtext" Text="请稍等"/>
+    <LangID ID="Car.VehicleControl.loading.titleText" Text="正在发送..."/>
+    <LangID ID="Car.VehicleControl.loading.detailtext" Text="请稍等"/>
+    <LangID ID="Car.vehicleStatus.loading.titleText" Text="正在发送..."/>
+    <LangID ID="Car.vehicleStatus.loading.detailtext" Text="请稍等"/>
+    <LangID ID="Car.ElecFence.loading.titleText" Text="正在设置..."/>
+    <LangID ID="Car.ElecFenceDelete.loading.titleText" Text="正在删除..."/>
+    <LangID ID="Car.ElecFence.loading.detailtext" Text="请稍等"/>
+    <LangID ID="Car.vvehicleDiagnosis.executing" Text="亲，有指令正在执行，请稍后再试"/>
+    <LangID ID="Car.vehicleDiagnosis.loading.detailtext" Text="请稍等"/>
+    <LangID ID="Car.vehicleDiagnosis.loading.titleText" Text="正在发送..."/>
+    <LangID ID="Car.VehicleControl.temperatureText" Text="当前设置温度："/>
+    <LangID ID="Car.VehicleControl.defaultTemperatureText" Text="当前设置温度："/>
+    
+    <LangID ID="Car.VehicleControl.openDoorLable" Text="开车门锁"/>
+    <LangID ID="Car.VehicleControl.closeDoorLable" Text="关车门锁"/>
+    <LangID ID="Car.VehicleControl.openCoolAirLable" Text="开启空调"/>
+    <LangID ID="Car.VehicleControl.closeCoolAirLable" Text="关闭空调"/>
+    <LangID ID="Car.VehicleControl.currentTemperatureTitle" Text="当前设置温度："/>
+    <LangID ID="Car.VehicleControl.currentTemperatureUnit" Text="°C"/>
+    
+    //paopao
+    <LangID ID="Map.paopaoInfo.detailText" Text="详情"/>
+    <LangID ID="Map.paopaoInfo.waitText" Text="正在加载..."/>
+    <LangID ID="Map.paopaoInfo.failureText" Text="无法获取地理位置信息..."/>
+    <LangID ID="Map.paopaoInfo.carLocText" Text="车辆位置"/>
+    <LangID ID="Map.paopaoInfo.phoneLocText" Text="当前位置"/>
+    <LangID ID="Map.paopaoInfo.poiLocText" Text="自定义位置"/>
+    
+</LangDef>

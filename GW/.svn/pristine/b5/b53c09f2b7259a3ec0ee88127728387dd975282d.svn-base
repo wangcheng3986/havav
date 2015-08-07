@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetParameterViewController">
+            <connections>
+                <outlet property="buttomView" destination="XsX-Ia-GLm" id="Bup-dJ-3JK"/>
+                <outlet property="coolAirTemperatureTitle" destination="rhe-hg-b0k" id="itW-lH-ScH"/>
+                <outlet property="coolAirTime" destination="h2c-8u-9Ff" id="o9F-29-cEl"/>
+                <outlet property="coolAirTimeSlider" destination="Mxp-DC-T6M" id="b3g-QS-HgX"/>
+                <outlet property="coolAirTimeTitle" destination="RUY-tJ-BFK" id="0ND-oq-T0X"/>
+                <outlet property="engineSlider" destination="cPe-TP-RXS" id="0JH-mx-lJf"/>
+                <outlet property="engineTime" destination="Dob-7U-Spn" id="GQV-cb-5b9"/>
+                <outlet property="headerView" destination="9Im-8h-Qce" id="P5N-WA-BDy"/>
+                <outlet property="openCoolAirTitle" destination="PQv-cD-xwp" id="n1K-zs-Ar7"/>
+                <outlet property="openEngineTitle" destination="gAW-u7-AsU" id="ewA-lJ-lwK"/>
+                <outlet property="temperature" destination="4Ia-Go-mYr" id="aNq-U3-lcI"/>
+                <outlet property="temperatureSlider" destination="oxL-Jn-9VJ" id="d3u-Sv-63N"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="9Im-8h-Qce">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_up_bg" id="djG-4o-9Zo">
+                            <rect key="frame" x="10" y="22" width="300" height="122"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="1" maxValue="30" id="cPe-TP-RXS">
+                            <rect key="frame" x="65" y="93" width="190" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.61734450210000003" green="1" blue="0.29787134539999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="engineSlider:" destination="-1" eventType="valueChanged" id="20D-PD-dhl"/>
+                                <action selector="engineSliderEditEnd:" destination="-1" eventType="touchUpInside" id="dzP-7u-hjU"/>
+                            </connections>
+                        </slider>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gAW-u7-AsU" userLabel="Label - openEngineTitle">
+                            <rect key="frame" x="41" y="39" width="223" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pLX-Ot-THC">
+                            <rect key="frame" x="24" y="93" width="15" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="car_vehicleStatus_setting_sub">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="engineDecreaseButton:" destination="-1" eventType="touchUpInside" id="0QL-2L-CmA"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_max" id="A6B-3f-aqF">
+                            <rect key="frame" x="256" y="93" width="25" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_min" id="eFp-Ux-Vwg">
+                            <rect key="frame" x="39" y="93" width="25" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_timeIcon" id="Fde-SZ-SPy">
+                            <rect key="frame" x="20" y="40" width="19" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f4a-Kh-5ef">
+                            <rect key="frame" x="138" y="72" width="17" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Dob-7U-Spn" userLabel="Label - engineTimeTitle">
+                            <rect key="frame" x="119" y="72" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eax-oq-ipH">
+                            <rect key="frame" x="281" y="93" width="15" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="car_vehicleStatus_setting_plus">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="engineRiseButton:" destination="-1" eventType="touchUpInside" id="j6Y-19-SFK"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="XsX-Ia-GLm">
+                    <rect key="frame" x="0.0" y="152" width="320" height="416"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_bottom_bg" id="vlW-f0-48L">
+                            <rect key="frame" x="10" y="0.0" width="300" height="271"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PQv-cD-xwp" userLabel="Label - openCoolAirTitle">
+                            <rect key="frame" x="40" y="21" width="223" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" red="0.61734450210000003" green="1" blue="0.29787134539999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="1" maxValue="30" id="Mxp-DC-T6M">
+                            <rect key="frame" x="65" y="108" width="190" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.61734450210000003" green="1" blue="0.29787134539999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration" label=""/>
+                            <connections>
+                                <action selector="coolAirTimeSlider:" destination="-1" eventType="valueChanged" id="sjz-KH-3t3"/>
+                                <action selector="coolAirTimeSliderEditEnd:" destination="-1" eventType="touchUpInside" id="RVU-QD-hac"/>
+                            </connections>
+                        </slider>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h2c-8u-9Ff" userLabel="Label - coolAirTime">
+                            <rect key="frame" x="119" y="88" width="21" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="13j-tF-xfr">
+                            <rect key="frame" x="24" y="108" width="15" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="car_vehicleStatus_setting_sub">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="coolAirTimeDecreaseButton:" destination="-1" eventType="touchUpInside" id="9gC-hw-KZc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NT7-wr-Bxz">
+                            <rect key="frame" x="281" y="108" width="15" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="car_vehicleStatus_setting_plus">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="coolAirTimeRiseButton:" destination="-1" eventType="touchUpInside" id="W1f-nA-Ksd"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_min" id="X23-RL-3JZ">
+                            <rect key="frame" x="39" y="108" width="25" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_max" id="9C2-FB-njA">
+                            <rect key="frame" x="256" y="108" width="25" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="17" maxValue="31" id="oxL-Jn-9VJ">
+                            <rect key="frame" x="65" y="214" width="190" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="1" green="0.25007057780000003" blue="0.27860563440000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="temperatureSlider:" destination="-1" eventType="valueChanged" id="vzC-63-aOu"/>
+                                <action selector="temperatureSliderEditEnd:" destination="-1" eventType="touchUpInside" id="Qwf-aU-b0b"/>
+                            </connections>
+                        </slider>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Ia-Go-mYr" userLabel="Label - temperature">
+                            <rect key="frame" x="119" y="193" width="21" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="N1V-Rn-RIZ">
+                            <rect key="frame" x="24" y="214" width="15" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="car_vehicleStatus_setting_sub">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="coolAirTemperatureDecreaseButton:" destination="-1" eventType="touchUpInside" id="TGf-fV-fgw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pTe-T2-8xu">
+                            <rect key="frame" x="281" y="215" width="15" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="car_vehicleStatus_setting_plus">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="coolAirTemperatureRiseButton:" destination="-1" eventType="touchUpInside" id="45t-Qq-22g"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_31" id="vYc-Uv-KHn">
+                            <rect key="frame" x="256" y="214" width="25" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_17" id="NHm-BC-Lo6">
+                            <rect key="frame" x="39" y="214" width="25" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_timeIcon" id="bAS-ty-41Z">
+                            <rect key="frame" x="20" y="22" width="19" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_line" id="Jtv-bX-hvI">
+                            <rect key="frame" x="51" y="69" width="64" height="3"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_line" id="LaT-hm-38v">
+                            <rect key="frame" x="196" y="69" width="80" height="3"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="空调运行时间" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RUY-tJ-BFK">
+                            <rect key="frame" x="116" y="60" width="79" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_line" id="doo-ca-ZaI">
+                            <rect key="frame" x="51" y="174" width="76" height="3"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_setting_line" id="U71-4N-cpS">
+                            <rect key="frame" x="183" y="174" width="93" height="3"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="空调温度" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rhe-hg-b0k">
+                            <rect key="frame" x="128" y="165" width="54" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uzu-vq-n4T">
+                            <rect key="frame" x="138" y="88" width="17" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jeR-wV-fWz">
+                            <rect key="frame" x="138" y="193" width="22" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="280" y="321"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="car_vehicleStatus_setting_17" width="16" height="16"/>
+        <image name="car_vehicleStatus_setting_31" width="51" height="29"/>
+        <image name="car_vehicleStatus_setting_bottom_bg" width="51" height="29"/>
+        <image name="car_vehicleStatus_setting_line" width="16" height="16"/>
+        <image name="car_vehicleStatus_setting_max" width="16" height="16"/>
+        <image name="car_vehicleStatus_setting_min" width="16" height="16"/>
+        <image name="car_vehicleStatus_setting_plus" width="16" height="16"/>
+        <image name="car_vehicleStatus_setting_sub" width="16" height="16"/>
+        <image name="car_vehicleStatus_setting_timeIcon" width="51" height="29"/>
+        <image name="car_vehicleStatus_setting_up_bg" width="51" height="29"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>  
+<html lang="en" >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+    <font face=宋体 color=red size=4px>服务条款和隐私相关政策</font>
+    </br>
+    <font face=宋体 color=black size=2px>欢迎您浏览和使用<span id="domTitle"></span>（<a href="http://T.gwm.com.cn">http://T.gwm.com.cn</a>以下称"本网站"），请在使用本网站时，遵从下列的条款。</font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>网站条款，请仔细阅读</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;您对本网站进行访问前应当认真阅读本声明，访问本网站即表示您同意接受本声明条款的约束。
+        如果您不接受本声明，请不要继续使用本网站。</span><br />
+    <span>&emsp;&emsp;我们可能对本声明现有条款进行随时更改，恕不另行通知。您有责任在每次进入本网站时查看本声明，以确保您了解我们最新的条款。
+        在本声明条款变更之后，您使用本网站即表示您接受修订后的条款。</span></font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>网站技术使用</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;Cookies不含任何病毒，也不会对您的电脑造成任何伤害。我们网站发送的Cookies不会采集关于您的任何个人信息。
+        您随时可以对您的浏览器进行设置来禁用Cookies。通常情况下，在您访问的时段里，我们站点的Cookies只用作匿名流量统计以及提高站点的用户友好度</span></font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>个人信息采集</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;本网站可能为调查您对本网站或我们的产品的建议，亦或是与我们进行合作收集您的个人信息，
+        但我们只会将收集到的您的个人信息用于以上目的，并且不会向任何第三方披露。</span><br />
+    <span>&emsp;&emsp;您完全可以自由决定是否向我们提供个人信息。鉴于网络的特性，我们不保证您的个人信息不会通过其他途径泄露，
+        我们将不会对您由此产生的任何损失承担责任，除非法律明确规定需要我们承担责任。</span>
+    </font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>网站信息</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;本网站所提供的各项信息不包含或构成任何意义上的要约或承诺。</span><br />
+        <span>&emsp;&emsp;本网站所有图片、照片、视频等信息不代表您所接触的产品本身，不代表我们已经在或仍在当地市场销售、或接受您的订购。
+            如您有意与长城公司进行交易，请联系我们获取详细信息。</span><br />
+        <span>&emsp;&emsp;本网站无任何意义上的在任何层面上向任何人授权本网站的信息进行商业目的使用。</span><br />
+        <span>&emsp;&emsp;本网站使用的任何图片、文字、视频、音频、图像、照片无意进行任何民族歧视、个人名誉诋毁或使用低俗语言，
+            如有不妥，请及时联系我们。</span></font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>知识产权</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;长城公司保留所有信息的著作权。所有信息，包括但不限于文字，图片，照片，音频或视频文件，动画，
+        以及本网站的版面设计和其他著作权均受保护。上述信息不可复制用于商业目的，也不可修改后在其他网站使用。</span><br />
+    <span>&emsp;&emsp;本网站中长城汽车或第三方及其产品和服务的名称和图片均属于长城汽车和 / 或相关第三方的专有标志</span><br />
+    <span>&emsp;&emsp;本网站所使用的商标均为正当使用并受法律保护。</span><br />
+        <span>&emsp;&emsp;本网站中所含的任何内容均不得视为授予任何人以任何许可或权利代表长城汽车或任何第三方使用所有这些名称、商标或图片。</span></font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>无担保</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;本网站信息不包括任何对长城产品的质量担保。</span><br />
+        <span>&emsp;&emsp;本网站不向任何使用本网站的信息所做的任何判断、行为做任何意义上的担保或保证，
+            且不对任何法律主体依照本网站信息作出的任何判断或行为导致的任何损失、数据丢失、商誉损失负责，不论该种损失是直接的还是间接的，
+            也不论该种损失是物质性的或其他形态的。</span></font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>条款</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;如果发现本声明条款中有任何条款非法、无效或不可执行，则应将此类条款中的非法、
+        无效或不可执行的部分从网站条款中删除和分离。剩余可执行的条款应继续全面有效，并且继续具有约束力。</span><br />
+    <span>&emsp;&emsp;本网站的所有信息包括本声明任何条款，均不排除或限制任何根据所应适用的有管辖权的法律应当由我们承担的责任，
+        亦不排除或限制消费者的法定权利。</span></font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>管辖法律</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;本声明条款受中华人民共和国法律管辖并按其进行解释，因本网站内容产生的争议应当由中华人民共和国法院管辖。
+        除非另有明确约定或根据可适用的冲突法规则适用他国法律。</span></font>
+    </br>
+    </br>
+    <font face=宋体 color=red size=4px>其他</font>
+    </br>
+    <font face=宋体 color=black size=2px><span>&emsp;&emsp;如您在使用本网站的过程中发现本网站内容侵犯您个人的著作权、肖像权、商标权、名誉权或其他任何权利，
+        或本网站信息含有民族歧视元素、低俗用语，请及时联系我们。我们将尽快进行调查核实，并根据调查结果进行调整。</span></font>
+    </br>
+    </br>
+</html>

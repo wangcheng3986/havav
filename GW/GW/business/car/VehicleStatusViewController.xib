@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VehicleStatusViewController">
+            <connections>
+                <outlet property="carImage" destination="wCI-iu-90a" id="Dya-6a-y9W"/>
+                <outlet property="frontLight" destination="wHY-N5-vnS" id="txI-pL-9Qd"/>
+                <outlet property="leftFrontDoor" destination="qGi-Az-QwZ" id="49r-Hx-wQT"/>
+                <outlet property="leftFrontTirePressure" destination="35i-gQ-OLW" id="HN7-ac-0yP"/>
+                <outlet property="leftRearDoor" destination="xhh-Ud-jKE" id="y2H-gn-uu9"/>
+                <outlet property="leftRearTirePressure" destination="Kb8-N9-0ht" id="UPw-41-8AR"/>
+                <outlet property="mileageNum" destination="gOt-lb-WWE" id="G6b-MS-1BA"/>
+                <outlet property="mileageTitle" destination="QHy-Rz-WkE" id="zai-83-6U1"/>
+                <outlet property="oilMassImage" destination="Ma4-Je-t6G" id="ion-Mu-QF8"/>
+                <outlet property="oilMassImageDiviner" destination="MXC-LK-Nrd" id="l5T-JT-zg2"/>
+                <outlet property="oilMassNum" destination="3hT-fx-ayP" id="MOu-YS-G76"/>
+                <outlet property="oilMassTitle" destination="yWY-cm-ACY" id="VCR-SL-m7V"/>
+                <outlet property="oilWearImage" destination="03W-1m-vRn" id="uhl-o0-hQF"/>
+                <outlet property="oilWearImageDiviner" destination="mLI-aG-hle" id="565-wz-aRp"/>
+                <outlet property="oilWearNum" destination="okX-WH-pXA" id="MMb-um-nyz"/>
+                <outlet property="oilWearTitle" destination="Bze-zp-ths" id="khs-ig-cFy"/>
+                <outlet property="rearLight" destination="QoO-rz-L1o" id="tVj-Qh-tBq"/>
+                <outlet property="refreshTimeTitle" destination="koG-3I-Cxx" id="mPX-fu-LFg"/>
+                <outlet property="refreshTimeTitleNum" destination="dMc-sL-gKv" id="cCh-F7-jGd"/>
+                <outlet property="rightFrontDoor" destination="VX9-S6-e8K" id="Mpu-48-mx9"/>
+                <outlet property="rightFrontTirePressure" destination="Uhc-xn-3zb" id="1aS-n9-zH9"/>
+                <outlet property="rightRearDoor" destination="PHe-CC-kvp" id="TDc-1A-0Pj"/>
+                <outlet property="rightRearTirePressure" destination="urm-Vz-gHy" id="E2V-0i-Ask"/>
+                <outlet property="speedIconDiviner" destination="X5e-rM-v2Z" id="pDN-ZZ-XcW"/>
+                <outlet property="speedIconImage" destination="saf-jb-TvO" id="yoQ-ji-H0G"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="cNN-YS-cot" userLabel="View-上半部分">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="270"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_diviner_long" id="HR2-jF-UDY" userLabel="Image View - car_diviner-long">
+                            <rect key="frame" x="12" y="44" width="296" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="刚刚" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dMc-sL-gKv" userLabel="Label - 距离新时间-时间">
+                            <rect key="frame" x="129" y="18" width="124" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="左胎2.8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="35i-gQ-OLW" userLabel="Label - 左前-胎压">
+                            <rect key="frame" x="24" y="130" width="50" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.031372549019607843" green="0.031372549019607843" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kb8-N9-0ht" userLabel="Label - 左后-胎压">
+                            <rect key="frame" x="24" y="222" width="50" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="左胎2.1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uhc-xn-3zb" userLabel="Label -右前-胎压">
+                            <rect key="frame" x="246" y="130" width="50" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="urm-Vz-gHy" userLabel="Label - 右后-胎压">
+                            <rect key="frame" x="246" y="222" width="50" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_car_FrontLight@2x" id="wHY-N5-vnS" userLabel="Image View-light-front">
+                            <rect key="frame" x="101" y="84" width="118" height="169"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_car_RearLight@2x" id="QoO-rz-L1o" userLabel="Image View-light-rear">
+                            <rect key="frame" x="101" y="84" width="118" height="169"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_time_icon" id="fG8-qH-ZMK">
+                            <rect key="frame" x="17" y="21" width="15" height="15"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_car_image" id="wCI-iu-90a">
+                            <rect key="frame" x="101" y="85" width="118" height="169"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_tyre_image" id="4PX-GU-nK4">
+                            <rect key="frame" x="260" y="177" width="22" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_tyre_image" id="MKH-Gf-xNA">
+                            <rect key="frame" x="260" y="85" width="22" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_tyre_image" id="Yfe-le-4s0">
+                            <rect key="frame" x="38" y="85" width="22" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_tyre_image" id="GlI-F7-4bR">
+                            <rect key="frame" x="38" y="177" width="22" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_car_leftFrontDoor" id="qGi-Az-QwZ" userLabel="Image View - leftFrontDoor">
+                            <rect key="frame" x="101" y="84" width="118" height="169"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_car_leftRearDoor" id="xhh-Ud-jKE" userLabel="Image View - leftRearDoor">
+                            <rect key="frame" x="101" y="84" width="118" height="169"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_car_rightFrontDoor" id="VX9-S6-e8K" userLabel="Image View - rightFrontDoor">
+                            <rect key="frame" x="101" y="84" width="118" height="169"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_car_rightRearDoor" id="PHe-CC-kvp" userLabel="Image View- rightRearDoor">
+                            <rect key="frame" x="101" y="84" width="118" height="169"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="距刷新时间：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="koG-3I-Cxx" userLabel="Label - 距离新时间">
+                            <rect key="frame" x="40" y="18" width="90" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="Uwx-f7-9tc">
+                    <rect key="frame" x="0.0" y="270" width="320" height="298"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="e6d-4Y-uzE">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_speed_icon" id="saf-jb-TvO">
+                            <rect key="frame" x="27" y="30" width="20" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_fuel_icon" id="03W-1m-vRn">
+                            <rect key="frame" x="27" y="67" width="20" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_vehicleStatus_fuel2_icon" id="Ma4-Je-t6G">
+                            <rect key="frame" x="27" y="104" width="20" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QHy-Rz-WkE" userLabel="Label - 里程">
+                            <rect key="frame" x="60" y="28" width="90" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.031372549019607843" green="0.031372549019607843" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gOt-lb-WWE" userLabel="Label - 里程-里程数">
+                            <rect key="frame" x="151" y="28" width="62" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.031372549019607843" green="0.031372549019607843" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bze-zp-ths" userLabel="Label - 油耗">
+                            <rect key="frame" x="60" y="65" width="90" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.031372549019607843" green="0.031372549019607843" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="okX-WH-pXA" userLabel="Label - 油耗-油耗数">
+                            <rect key="frame" x="151" y="65" width="73" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.031372549019607843" green="0.031372549019607843" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yWY-cm-ACY" userLabel="Label - 油量">
+                            <rect key="frame" x="60" y="102" width="90" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.031372549019607843" green="0.031372549019607843" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3hT-fx-ayP" userLabel="Label - 油量数">
+                            <rect key="frame" x="151" y="102" width="62" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.031372549019607843" green="0.031372549019607843" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_diviner" id="X5e-rM-v2Z">
+                            <rect key="frame" x="21" y="57" width="279" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_diviner" id="mLI-aG-hle">
+                            <rect key="frame" x="21" y="94" width="279" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_diviner" id="MXC-LK-Nrd">
+                            <rect key="frame" x="21" y="131" width="279" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="car_diviner" width="16" height="16"/>
+        <image name="car_diviner_long" width="16" height="16"/>
+        <image name="car_vehicleStatus_car_FrontLight@2x" width="16" height="16"/>
+        <image name="car_vehicleStatus_car_RearLight@2x" width="16" height="16"/>
+        <image name="car_vehicleStatus_car_image" width="16" height="16"/>
+        <image name="car_vehicleStatus_car_leftFrontDoor" width="51" height="29"/>
+        <image name="car_vehicleStatus_car_leftRearDoor" width="51" height="29"/>
+        <image name="car_vehicleStatus_car_rightFrontDoor" width="51" height="29"/>
+        <image name="car_vehicleStatus_car_rightRearDoor" width="51" height="29"/>
+        <image name="car_vehicleStatus_fuel2_icon" width="16" height="16"/>
+        <image name="car_vehicleStatus_fuel_icon" width="16" height="16"/>
+        <image name="car_vehicleStatus_speed_icon" width="16" height="16"/>
+        <image name="car_vehicleStatus_time_icon" width="16" height="16"/>
+        <image name="car_vehicleStatus_tyre_image" width="16" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

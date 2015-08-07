@@ -1,0 +1,97 @@
+//
+// Prefix header for all source files of the 'gratewall' target in the 'gratewall' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+//版本信息
+#define APP_VERSION 12
+
+#define Notification_New_Message @"newMessage"
+#define Notification_Request_Wait_End @"requestWaitEnd"
+#define Notification_New_FriendLocation @"newFriendLocation"
+#define Notification_New_VehicleControl @"newVehicleControl"
+#define Notification_New_VehicleStatus @"newVehicleStatus"
+#define Notification_New_VehicleDiagnosis @"newVehicleDiagnosis"
+#define Notification_Delete_Contacts @"DeleteContacts"
+#define Notification_Delete_Black @"DeleteBlack"
+//手机位置默认值
+#define MAP_DEFAULT_CDP_LON  116.447174
+#define MAP_DEFAULT_CDP_LAT  39.906687
+//车机位置默认值
+#define MAP_DEFAULT_LPP_LON  116.387174
+#define MAP_DEFAULT_LPP_LAT  39.904687
+
+//地图中心点默认值
+#define MAP_DEFAULT_CENTER_LON  116.39125
+#define MAP_DEFAULT_CENTER_LAT  39.90735
+
+
+
+#define DEMO_LOGINID @"demo_admin"
+//密码占位符
+#define PWD_PLACEHOLDER @"**********"
+
+#define Add_Friend_View_NameTextField_tag 111
+#define Add_Friend_View_PhoneTextField_tag 112
+
+//消息99+时消息框宽度
+#define MESSAGE_COUNT_IMG_MAX_WIDTH 29
+//消息两位一下时消息框宽度
+#define MESSAGE_COUNT_IMG_WIDTH 21
+//消息两位一下时消息框宽度
+#define MESSAGE_COUNT_IMG_MIN_WIDTH 16
+
+#define MESSAGE_COUNT_LABEL_MAX_WIDTH 40
+#define MESSAGE_COUNT_LABEL_WIDTH 40
+#define MESSAGE_COUNT_LABEL_MIN_WIDTH 40
+//表名
+//#define TABLE_MESSAGE_INFO_DATA          @"MESSAGE_INFO"
+//#define TABLE_FRIEND_REQUEST_LOCATION_MESSAGE_DATA          @"MESSAGE_FRIEND_REQUEST_LOCATION"
+//#define TABLE_FRIEND_LOCATION_MESSAGE_DATA          @"MESSAGE_FRIEND_LOCATION"
+//#define TABLE_SEND_TO_CAR_MESSAGE_DATA          @"MESSAGE_SEND_TO_CAR"
+
+//城市直达词标志
+#define TYPECODE01 @"AC01"
+#define TYPECODE02 @"AC02"
+#define TYPECODE03 @"AC03"
+//对应地图缩放比例
+#define TYPECODE01_MAPZOOM 6
+#define TYPECODE02_MAPZOOM 9
+#define TYPECODE03_MAPZOOM 13
+//toast
+#define TOAST_DELAY_TIME 1
+#define TOAST_OFFICE_X 0
+#define TOAST_OFFICE_Y 60
+
+//地图默认比例
+#define MAP_DEFAULT_ZOOM 11
+
+//地图默认paopao高度
+#define MAP_DEFAULT_PAOPAO_HIGHT 1.6f
+
+
+
+//地图 poiid
+#define ID_POI_CUR 101
+
+#define ID_POI_CAR 102
+
+#define ID_POI_CUSTOM 103
+
+#define ID_POI_URL 104
+
+//poiDatakey
+#define BUBBLE_INFO_KEY @"bubbleInfo"
+#define MAP_STATUS_KEY @"mapStatus"
+#define ID_POI_CUSTOM_KEY @"103"
+#define ID_POI_URL_KEY @"104"
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7283B163-E3A4-4FAC-91DB-8330D481D845</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GW</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2255c1d2-977b-af48-92db-d80f16331f3a++4688</key>
+		<string>https://172.19.1.249/svn/GW/4.DevelopLibrary/08.SourceCodeLink(COD)/gwmobile/Cherry/IOS_newMap/GW</string>
+		<key>24E6279A01062E32AFBBC697A53329EAF15B25A9</key>
+		<string>ssh://211.103.234.234:60100/sdk/ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GW.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2255c1d2-977b-af48-92db-d80f16331f3a++4688</key>
+		<string>../..</string>
+		<key>24E6279A01062E32AFBBC697A53329EAF15B25A9</key>
+		<string>../../../iosbuild/src/ios</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>2255c1d2-977b-af48-92db-d80f16331f3a++4688</key>
+		<string>https://172.19.1.249/svn/GW</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://172.19.1.249/svn/GW/4.DevelopLibrary/08.SourceCodeLink(COD)/gwmobile/Cherry/IOS_newMap/GW/GW.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2255c1d2-977b-af48-92db-d80f16331f3a++4688</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2255c1d2-977b-af48-92db-d80f16331f3a++4688</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GW</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24E6279A01062E32AFBBC697A53329EAF15B25A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

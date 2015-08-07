@@ -1,0 +1,18 @@
+/*
+ *  NIMapManager.h
+ *
+ *  Copyright (c) 2014年 Navinfo. All rights reserved.
+ *
+ */
+
+#import <UIKit/UIKit.h>
+
+
+///主引擎类
+@interface NIMapManager : NSObject
+
+///设置搜索类的userid和key
+- (void) setSearchIDKey:(NSString *)userid apiKey:(NSString *)apikey;
+@end
+
+
